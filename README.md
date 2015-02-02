@@ -32,3 +32,8 @@ Examples:
   
 Tips:
   It's sure that droosh.exe and cURL.exe must in the same directory.
+  ^ ^
+  
+CHANGELOG
+======
+Version 1.0
