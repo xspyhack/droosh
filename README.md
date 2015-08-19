@@ -7,28 +7,28 @@ USAGE:
 
 Usage: droosh.exe COMMAND [PARAMETERS]...
 
-[%%]: Required param
+[%%]: Required param   
 <%%>: Optional param
 
-Commands:
-  upload [LOCAL_FILE] <REMOTE_FILE>
-  //Upload local file to remote Dropbox folder
+Commands:   
+  upload [LOCAL_FILE] <REMOTE_FILE>   
+  //Upload local file to remote Dropbox folder   
 
-  download [REMOTE_FILE] <LOCAL_FILE>
-  //Download file from Dropbox to local folder
+  download [REMOTE_FILE] <LOCAL_FILE>   
+  //Download file from Dropbox to local folder   
 
-  delete [REMOTE_FILE]
+  delete [REMOTE_FILE]   
   //Remove a remote file from Dropbox
 
-  list [REMOTE_DIR]
-  //List the remote directory from Dropbox
+  list [REMOTE_DIR]   
+  //List the remote directory from Dropbox   
 
 Examples:
-  droosh.exe upload ./localfile remotefile
-  droosh.exe upload ./localfile
-  droosh.exe download remotefile
-  droosh.exe delete remotefile
-  droosh.exe list remote_dir
+  droosh.exe upload ./localfile remotefile   
+  droosh.exe upload ./localfile   
+  droosh.exe download remotefile   
+  droosh.exe delete remotefile   
+  droosh.exe list remote_dir   
   
 Tips:
   It's sure that droosh.exe and cURL.exe must in the same directory.
